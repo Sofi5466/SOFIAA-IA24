@@ -1,0 +1,22 @@
+POST (https://miniature-space-yodel-5gvw7wxgqg56fp76g-3333.app.github.dev//users) HTTP/1.1
+Content-Type: application/json
+Authorization: token xxx
+
+{
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+####
+
+PUT  (https://miniature-space-yodel-5gvw7wxgqg56fp76g-3333.app.github.dev//users/1) HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Sofia Emanuely update",
+  "email": "emanuelysofia.r.bezerra@gmail.com"
+}
+
+####
+
+DELETE  (https://miniature-space-yodel-5gvw7wxgqg56fp76g-3333.app.github.dev//users/1) HTTP/1.1
+
